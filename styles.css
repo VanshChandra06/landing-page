@@ -1,0 +1,88 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  justify-content: space-between;
+  padding: 8px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.logo {
+  display: flex;
+  font-weight: bold;
+  font-size: 24px;
+  color: #f9faf8;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 16px;
+}
+
+a {
+  color: lightgrey;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightgrey;
+  text-decoration: underline;
+}
+
+.content1 {
+  display: flex;
+  background-color: #1f2937;
+  justify-content: space-between;
+  padding: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.c1block1 {
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: column;
+  width: 450px;
+  gap: 8px;
+}
+
+.c1heading {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.c1text {
+  color: lightgrey;
+  font-size: 18px;
+}
+
+.c1button {
+  padding: 8px 32px 8px 32px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 8px;
+  flex: 0 0 auto;
+  align-self: flex-start;
+}
+
+.c1imagetext {
+  display: flex;
+  color: #f9faf8;
+  background-color: grey;
+  align-items: center;
+  justify-content: center;
+  padding: 75px 150px 75px 150px;
+}
