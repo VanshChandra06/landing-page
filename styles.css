@@ -86,3 +86,64 @@ a:hover {
   justify-content: center;
   padding: 75px 150px 75px 150px;
 }
+
+.content2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.c2heading {
+  font-weight: 900;
+  font-size: 36px;
+  color: #1f2937;
+  padding: 32px;
+}
+
+.images {
+  display: flex;
+  gap: 16px;
+}
+
+.imgwithtext {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  width: 200px;
+  height: auto;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  border: 5px solid #3882f6;
+  border-radius: 11px;
+}
+.imgdescription {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}
+
+.content3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  padding: 100px 350px 100px 350px;
+}
+
+.c3text {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.c3thor {
+  display: flex;
+  align-self: flex-end;
+  font-weight: bolder;
+  font-size: 24px;
+  padding-right: 16px;
+}
