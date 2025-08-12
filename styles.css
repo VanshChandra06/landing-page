@@ -147,3 +147,52 @@ img {
   font-size: 24px;
   padding-right: 16px;
 }
+
+.content4 {
+  padding: 100px 200px 100px 200px;
+}
+
+.c4container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882f6;
+  border-radius: 8px;
+  padding: 42px 90px 42px 90px;
+  color: white;
+}
+
+.c4heading {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.c4text {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.c4handt {
+  display: flex;
+  flex-direction: column;
+}
+
+.c4button {
+  padding: 8px 32px 8px 32px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: bold;
+  font-size: 18px;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+  flex: 0 0 auto;
+  align-self: flex-start;
+}
+
+.footer {
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  justify-content: center;
+  padding: 40px;
+  font-weight: 300;
+}
